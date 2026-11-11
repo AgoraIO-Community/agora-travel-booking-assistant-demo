@@ -45,7 +45,7 @@ Use Node.js 24 from .nvmrc and pnpm 9.15.9. Install with pnpm install --frozen-l
 - Keep startup independent of business state. No business tools, saved results or persistent customer/learner history are available. Business API routes are not provided.
 - NEXT_PUBLIC_AGORA_APP_ID is public and required at build/runtime. Keep NEXT_AGORA_APP_CERTIFICATE and optional vendor keys server-only. Never log, commit or screenshot credentials.
 - Sample token/start/stop endpoints are not production login or abuse controls. Provider retention is external to this source. Keep missing measurements unknown and Inspector outcomes manual.
-- Keep Inspector, Build, adopted UIkit source, source/font licenses and Docker support.
+- Keep Inspector, Build, adopted UIkit source, source licenses and Docker support.
 
 ## Prompt behavior contract — 2026-11-05
 
@@ -101,3 +101,7 @@ Keep FAQ in the upper-right header beside Inspector and Build. `components/Scena
 Plan a Bar Harbor or Acadia trip, compare fictional hotels and confirm a simulated stay. This first version is conversation-only with explicitly fictional simulation. No business data lookup, external tools, database, record writes, saved results, or cross-session business history are available. You may guide the configured simulated booking or trial enrollment and, only after explicit confirmation of the complete selection, say it is confirmed for this demo conversation. A simulated confirmation is an unsaved verbal recap, not a real reservation, inventory lock, submitted request, payment or external action. Do not invent an order number, confirmation code, email, callback or persistent record. Keep choices and corrections only in the current conversation. Never imply another session or a real business can retrieve this recap. Do not request passwords, verification codes, payment details or unnecessary personal identifiers.
 
 See [current capabilities](README.md#what-you-can-do), the [conversation contract](ARCHITECTURE.md#conversation-behavior) and [verification guidance](AGENTS.md#verification-and-maintenance). Tools remain disabled, and no persistent business operations are provided.
+
+## Typography
+
+Use the installed Helvetica Neue/sans-serif fallback and keep the shared font tokens consistent with global/form-control styles. Do not bundle or download font assets. Preserve UI source attribution and other third-party notices. Check desktop/mobile rendering after typography changes.
