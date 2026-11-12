@@ -6,6 +6,8 @@
 
 Agora と Next.js で構築した旅行計画の音声 AI デモです。バー・ハーバーやアカディアへの旅行を相談し、架空のホテルを比較して、ホテル予約の模擬会話を体験できます。
 
+**[デモを試す →](https://agora-travel-booking-assistant-demo.vercel.app)**
+
 **[Agora Recipes で音声 AI デモをもっと探す →](https://recipes.agora.io/)**
 
 [![Agora](https://img.shields.io/badge/Voice_AI-Agora-099DFD)](https://www.agora.io/en/products/conversational-ai-engine/)
@@ -79,6 +81,8 @@ pnpm run dev
 ```
 
 [http://localhost:3000](http://localhost:3000) を開き、**Review travel plans** を選んでマイクの使用を許可します。必要に応じて要約を依頼し、終了ボタン（**End session**）で通話を終えます。
+
+各セッションは10分後に自動終了します。続けるには Start again を選択してください。
 
 <a id="deployment"></a>
 
