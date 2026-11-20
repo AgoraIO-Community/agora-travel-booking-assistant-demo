@@ -1,6 +1,6 @@
 {
   "name": "agora-travel-booking-assistant-demo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Review an itinerary and request a change after identity and confirmation.",
   "private": true,
   "engines": {
